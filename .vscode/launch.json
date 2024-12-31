@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "website",
+            "request": "launch",
+            "mainClass": "website",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "exp",
             "request": "launch",
             "mainClass": "exp",
