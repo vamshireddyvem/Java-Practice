@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reverseNo",
+            "request": "launch",
+            "mainClass": "reverseNo",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "armstrong",
+            "request": "launch",
+            "mainClass": "armstrong",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "digits",
+            "request": "launch",
+            "mainClass": "digits",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "factors",
+            "request": "launch",
+            "mainClass": "factors",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "prime1",
+            "request": "launch",
+            "mainClass": "prime1",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "menu",
+            "request": "launch",
+            "mainClass": "menu",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "website",
             "request": "launch",
             "mainClass": "website",
