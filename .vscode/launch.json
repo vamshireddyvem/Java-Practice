@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pattern6",
+            "request": "launch",
+            "mainClass": "Pattern6",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Pattern5",
+            "request": "launch",
+            "mainClass": "Pattern5",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Pattern4",
+            "request": "launch",
+            "mainClass": "Pattern4",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "pattern3",
+            "request": "launch",
+            "mainClass": "pattern3",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "CountLoop",
+            "request": "launch",
+            "mainClass": "CountLoop",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "NestedLoops",
+            "request": "launch",
+            "mainClass": "NestedLoops",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "WordsNo",
+            "request": "launch",
+            "mainClass": "WordsNo",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "reverseNo",
             "request": "launch",
             "mainClass": "reverseNo",
