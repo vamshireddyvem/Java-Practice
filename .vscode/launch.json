@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ShiftingArrayE",
+            "request": "launch",
+            "mainClass": "arrays.ShiftingArrayE",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "InsertArray",
+            "request": "launch",
+            "mainClass": "arrays.InsertArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "DeletionArray",
+            "request": "launch",
+            "mainClass": "arrays.DeletionArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "MaxArray",
+            "request": "launch",
+            "mainClass": "arrays.MaxArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "SearchArray",
+            "request": "launch",
+            "mainClass": "arrays.SearchArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "search",
+            "request": "launch",
+            "mainClass": "arrays.search",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "intro",
+            "request": "launch",
+            "mainClass": "arrays.intro",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "SumArrayE",
+            "request": "launch",
+            "mainClass": "arrays.SumArrayE",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "Pattern6",
             "request": "launch",
             "mainClass": "Pattern6",
