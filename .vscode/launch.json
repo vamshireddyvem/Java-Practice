@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SizeArray",
+            "request": "launch",
+            "mainClass": "SizeArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "ReversingArray",
+            "request": "launch",
+            "mainClass": "arrays.ReversingArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "SizeArray",
+            "request": "launch",
+            "mainClass": "arrays.SizeArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "ShiftingArrayE",
             "request": "launch",
             "mainClass": "arrays.ShiftingArrayE",
