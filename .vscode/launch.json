@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "jagged2DArray",
+            "request": "launch",
+            "mainClass": "Arrays.jagged2DArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "TwoDimensionalArray",
+            "request": "launch",
+            "mainClass": "Arrays.TwoDimensionalArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "SizeArray",
             "request": "launch",
             "mainClass": "SizeArray",

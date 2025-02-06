@@ -1,4 +1,4 @@
-package arrays;
+package Arrays;
 import java.util.*;
 public class SearchArray{
     public static void main(String args[]){
