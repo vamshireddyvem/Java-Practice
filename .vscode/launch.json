@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArraySort",
+            "request": "launch",
+            "mainClass": "Arrays.ArraySort",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "MultiplyArray",
+            "request": "launch",
+            "mainClass": "Arrays.MultiplyArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "jagged2DArray",
             "request": "launch",
             "mainClass": "Arrays.jagged2DArray",
