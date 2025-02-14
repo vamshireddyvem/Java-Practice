@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxArrayMethod",
+            "request": "launch",
+            "mainClass": "Methods.MaxArrayMethod",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "GCDMethod2",
+            "request": "launch",
+            "mainClass": "Methods.GCDMethod2",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "GCDMethod",
+            "request": "launch",
+            "mainClass": "Methods.GCDMethod",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Prime",
+            "request": "launch",
+            "mainClass": "Methods.Prime",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "MethodsIntro",
+            "request": "launch",
+            "mainClass": "Methods.MethodsIntro",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "ArraySort",
             "request": "launch",
             "mainClass": "Arrays.ArraySort",
