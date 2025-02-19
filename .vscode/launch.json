@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ValidateMethod",
+            "request": "launch",
+            "mainClass": "Methods.ValidateMethod",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "ReversingIntORArray",
+            "request": "launch",
+            "mainClass": "Methods.ReversingIntORArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "MaxArrayMethod",
             "request": "launch",
             "mainClass": "Methods.MaxArrayMethod",
