@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DiscountMethod",
+            "request": "launch",
+            "mainClass": "Methods.DiscountMethod",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Sum_Of_Array_VaraiableArgs",
+            "request": "launch",
+            "mainClass": "Methods.Sum_Of_Array_VaraiableArgs",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Max_VariableArguments",
+            "request": "launch",
+            "mainClass": "Methods.Max_VariableArguments",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "FibanocciMethod",
+            "request": "launch",
+            "mainClass": "Methods.FibanocciMethod",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "ValidateMethod",
             "request": "launch",
             "mainClass": "Methods.ValidateMethod",
