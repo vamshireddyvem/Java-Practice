@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Shop",
+            "request": "launch",
+            "mainClass": "OOJ.Shop",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Consumer",
+            "request": "launch",
+            "mainClass": "OOJ.Consumer",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "CylinderArea",
+            "request": "launch",
+            "mainClass": "OOJ.Constructors.CylinderArea",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "DiscountMethod",
             "request": "launch",
             "mainClass": "Methods.DiscountMethod",
