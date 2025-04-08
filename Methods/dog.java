@@ -1,5 +1,5 @@
+package Methods;
 public class dog {
-    
         int size;
         String Name;
         String Breed;

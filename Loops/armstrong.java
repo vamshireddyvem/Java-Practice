@@ -1,3 +1,4 @@
+package Loops;
 import java.util.*;
 
 public class armstrong {

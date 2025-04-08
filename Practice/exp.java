@@ -11,7 +11,7 @@ public class exp {
         System.out.println(date.matches("[0-1][0-9]/[0-3][0-9]/[0-9]{4}"));
 
         String sp="v@m$h!";
-        String rmSp = sp.replaceAll(^[a-z][0-9],"");
+        String rmSp = sp.replaceAll("^[a-z][0-9]","");
         System.out.println(rmSp);
     }
 }

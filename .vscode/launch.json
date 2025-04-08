@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "testdog",
+            "request": "launch",
+            "mainClass": "testdog",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "daysMonth",
+            "request": "launch",
+            "mainClass": "daysMonth",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "Shop",
             "request": "launch",
             "mainClass": "OOJ.Shop",

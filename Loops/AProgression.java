@@ -1,3 +1,4 @@
+package Loops;
 import java.util.*;
 public class AProgression {
     public static void main(String args[]){

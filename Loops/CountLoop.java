@@ -1,3 +1,4 @@
+package Loops;
 public class CountLoop {
  public static void main(String args[]){
     int count=0;
