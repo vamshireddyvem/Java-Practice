@@ -1,4 +1,4 @@
-package OOJ.Inheritance;
+package OOJ.Constructors;
 
 public class BankAccount {
     private String AccNo;
