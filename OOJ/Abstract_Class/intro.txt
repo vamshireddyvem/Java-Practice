@@ -1,0 +1,23 @@
+There are Two Types of Classes
+
+Abstract ( to make a class Abstract : use keyword Abstract before class.)
+
+abstract class Super {
+
+}
+
+Concrete (Class are regular Classes)
+
+* We Can have both regular and  Abstract Methods in the Abstract  Classes.
+
+* we cannot make abstract class or abstract method final. because, the abstract classes or methods are to be overridden.
+
+* we cannot make abstract class or abstract method  Static. because the static methods has to have a body or definition.
+
+* But In Concrete Class We cannot have a Abstract Method, If a method has to be Abstract the class also has to Abstract
+
+* An Abstracted Method Doesn't have any definition. for ex: Abstract Void Display();
+
+* We Cant Create Object of a Abstract Class but we Can have A reference
+
+* If a Sub class is Inherited from Abstract Super Class the Sub class will also be Abstract Class unless the Abstracted Method is Over ridded.
