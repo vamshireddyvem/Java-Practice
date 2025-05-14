@@ -1,0 +1,10 @@
+There are three types of Errors they are 
+1. Syntax Errors : These are the erros that are caused by the Programmer at the time of writing the code, where it is caused by wrong syntax or wrong spellings and it is detected by Compiler.
+2. Logical Errors: These are the errors caused by the programmer itself. but, these are the caused by wrong usuage of logic and Arthematic expressions..
+3. Rutime Errors: These are the errors caused at the Run-time by user, it mainly caused by wrong input or unavailabilty of the resources for the code t excuted. there are also called as Exceptions.
+
+When their is an error the exceution of whole code stops to avoid it we used try & catch blocks where either try or catch block are exceuted without stopping the code flow.
+These Exceptions are Handled by using try and catch blocks which directs the user to give disered resources and input needed for the code to Run as it supposed to.
+
+there should be atleast one catch block for each try block, there are be more catch blocks as well.
+there can be a try block with a finally block where they both are exceuted unlike catch block.

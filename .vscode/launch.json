@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "student_excerise",
+            "request": "launch",
+            "mainClass": "Exceptional_handling.student_excerise",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "own_exception",
+            "request": "launch",
+            "mainClass": "Exceptional_handling.own_exception",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "MethodChainingExample",
+            "request": "launch",
+            "mainClass": "MethodChainingExample",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Nestedtrycatch",
+            "request": "launch",
+            "mainClass": "Exceptional_handling.Nestedtrycatch",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "ifdemo",
+            "request": "launch",
+            "mainClass": "ifdemo",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "Exceptional_handling.demo",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "Static_Final.Student",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Do_and_Dont",
+            "request": "launch",
+            "mainClass": "OOJ.Interfaces.Do_and_Dont",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "deal",
+            "request": "launch",
+            "mainClass": "OOJ.Interfaces.deal",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "testdog",
             "request": "launch",
             "mainClass": "testdog",
