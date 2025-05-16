@@ -1,0 +1,13 @@
+Multithreading in Java is a feature that allows concurrent execution of two or more threads. A thread is a lightweight sub-process, the smallest unit of processing. Multithreading is used to perform multiple tasks simultaneously, making efficient use of CPU resources.
+
+Key Concepts:
+1. **Thread Class**: Java provides the `Thread` class to create and manage threads.it is a class hence it can extends by inheritance.
+2. **Runnable Interface**: An alternative way to create threads by implementing the `Runnable` interface. it is an interface so it can implements.
+3. **Synchronization**: Ensures that shared resources are accessed by only one thread at a time to prevent data inconsistency.
+4. **Thread Lifecycle**: A thread goes through various states: New, Runnable, Running, Blocked/Waiting, and Terminated.
+5. **Thread Priority**: Threads can have priorities that affect the order of execution.
+
+Advantages:
+- Better CPU utilization.
+- Simplifies complex applications by dividing tasks into smaller threads.
+- Enables asynchronous behavior.

@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "demo_DC_runnable",
+            "request": "launch",
+            "mainClass": "Multithreading.demo_DC_runnable",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "demo_DC_thread",
+            "request": "launch",
+            "mainClass": "Multithreading.demo_DC_thread",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "demo_runnable",
+            "request": "launch",
+            "mainClass": "Multithreading.demo_runnable",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "Multithreading.demo",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "student_excerise",
             "request": "launch",
             "mainClass": "Exceptional_handling.student_excerise",
