@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mydoc",
+            "request": "launch",
+            "mainClass": "javdoc.mydoc",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "SCThread2",
             "request": "launch",
             "mainClass": "Multithreading.SCThread2",
