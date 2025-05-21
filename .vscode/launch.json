@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SCThread2",
+            "request": "launch",
+            "mainClass": "Multithreading.SCThread2",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "student_excersie_whiteboard",
+            "request": "launch",
+            "mainClass": "Multithreading.student_excersie_whiteboard",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "InterProcess",
+            "request": "launch",
+            "mainClass": "Multithreading.InterProcess",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "inter_thread_communication",
+            "request": "launch",
+            "mainClass": "Multithreading.inter_thread_communication",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "student_excersie",
+            "request": "launch",
+            "mainClass": "Multithreading.student_excersie",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "synchronization",
+            "request": "launch",
+            "mainClass": "Multithreading.synchronization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "demo_DC_thread_with_runnable_constructors",
+            "request": "launch",
+            "mainClass": "Multithreading.demo_DC_thread_with_runnable_constructors",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "demo_DC_runnable",
             "request": "launch",
             "mainClass": "Multithreading.demo_DC_runnable",
