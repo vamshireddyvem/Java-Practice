@@ -43,7 +43,7 @@ public class Student12{
      */
     Student12(String Name, int rollNo, String Dept){
         this.Name=Name;
-        this. rollNo=rollNo;
+        this.rollNo=rollNo;
         this.Dept=Dept;
     }
 }
