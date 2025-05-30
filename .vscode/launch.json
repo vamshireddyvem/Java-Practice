@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Copying_Two_Files",
+            "request": "launch",
+            "mainClass": "I.O_Stream.Copying_Two_Files",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Copy_Challeange",
+            "request": "launch",
+            "mainClass": "I.O_Stream.Copy_Challeange",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "InputStream_Prac",
+            "request": "launch",
+            "mainClass": "I.O_Stream.InputStream_Prac",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "OutputStream_Prac",
+            "request": "launch",
+            "mainClass": "I.O_Stream.OutputStream_Prac",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "MethodReferenceExample",
+            "request": "launch",
+            "mainClass": "LAMBDAEXP.MethodReferenceExample",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Method_Reference1",
+            "request": "launch",
+            "mainClass": "LAMBDAEXP.Method_Reference1",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Method_Reference",
+            "request": "launch",
+            "mainClass": "LAMBDAEXP.Method_Reference",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Lambdaparam",
+            "request": "launch",
+            "mainClass": "LAMBDAEXP.Lambdaparam",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Lambdaexp",
+            "request": "launch",
+            "mainClass": "LAMBDAEXP.Lambdaexp",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "enumeration",
+            "request": "launch",
+            "mainClass": "Packages.enumeration",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "mydoc",
             "request": "launch",
             "mainClass": "javdoc.mydoc",
