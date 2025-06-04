@@ -1,4 +1,4 @@
-package I.O_Stream;
+package IO_Stream;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
