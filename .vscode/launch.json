@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CharArray_IS",
+            "request": "launch",
+            "mainClass": "I.O_Stream.CharArray_IS",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Byte_Array_OS",
+            "request": "launch",
+            "mainClass": "I.O_Stream.Byte_Array_OS",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Byte_Array_IO",
+            "request": "launch",
+            "mainClass": "I.O_Stream.Byte_Array_IO",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "Copying_Two_Files",
             "request": "launch",
             "mainClass": "I.O_Stream.Copying_Two_Files",
