@@ -4,11 +4,11 @@ import java.io.DataOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class DataOutputStream_Serialization {
+public class DataStream_OutputStream_Serialization {
     public static void main(String[] args) throws IOException {
         FileOutputStream fos3= new FileOutputStream("E:\\JAVA Course\\Filesource\\student3.txt");
         try (DataOutputStream dos = new DataOutputStream(fos3)) {
-            Student s3= new Student();
+            Student1 s3= new Student1();
             s3.Name="Vicky";
             s3.Dept="CSE";
             s3.RollNo=1259;

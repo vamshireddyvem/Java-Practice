@@ -9,7 +9,7 @@ public class PrintStream_InputStream_Serialization {
     public static void main(String[] args) throws IOException {
         FileInputStream fis2 =new FileInputStream("E:\\JAVA Course\\Filesource\\studenrt1.txt");
         BufferedReader br= new BufferedReader(new InputStreamReader(fis2));
-        Student s2 = new Student();
+        Student1 s2 = new Student1();
         s2.Name=br.readLine();
         s2.Avg=Float.parseFloat(br.readLine());
         s2.Dept=br.readLine();

@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.PrintStream;
 
 
-class Student {
+class Student1 {
     String Name;
     int RollNo;
     String Dept;
@@ -17,7 +17,7 @@ public class PrintStream_OutputStream_Serialization {
     public static void main(String[] args) throws IOException {
         FileOutputStream fos= new FileOutputStream("E:\\JAVA Course\\Filesource\\studenrt1.txt");
         PrintStream ps= new PrintStream(fos);
-        Student s1= new Student();
+        Student1 s1= new Student1();
         s1.Name="Hari";
         s1.Avg=10.56f;
         s1.Dept="ECE";

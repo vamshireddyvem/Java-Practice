@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrintStream_OutputStream_Serialization",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.PrintStream_OutputStream_Serialization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "DataStream_OutputStream_Serialization",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.DataStream_OutputStream_Serialization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "DataStream_InputStream_Serialization",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.DataStream_InputStream_Serialization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "PrintStream_InputStream_Serialization",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.PrintStream_InputStream_Serialization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Object_Output_Serialization",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.Object_Output_Serialization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Object_InputStream_Serialization",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.Object_InputStream_Serialization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "ObjectOutput_Serialization",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.ObjectOutput_Serialization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "Serialization_DataInputStream",
             "request": "launch",
             "mainClass": "IO_Stream.Serialization_DataInputStream",
