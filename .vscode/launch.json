@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Serialzation1_PrinStream_InputStream",
+            "request": "launch",
+            "mainClass": "Serialzation1_PrinStream_InputStream",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Serialzation1_PrinStream_InputStream",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialzation1_PrinStream_InputStream",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Serialization1",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization1",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "File_Class",
+            "request": "launch",
+            "mainClass": "IO_Stream.File_Class",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "P_C_PIPEDStream",
+            "request": "launch",
+            "mainClass": "IO_Stream.P_C_PIPEDStream",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "InputStream_Prac",
+            "request": "launch",
+            "mainClass": "IO_Stream.InputStream_Prac",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Buffered_InputStream",
+            "request": "launch",
+            "mainClass": "IO_Stream.Buffered_InputStream",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "CharArray_IS",
             "request": "launch",
             "mainClass": "I.O_Stream.CharArray_IS",

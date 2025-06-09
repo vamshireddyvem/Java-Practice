@@ -9,6 +9,7 @@ public class InputStream_Prac {
         try {
             try (FileInputStream fis = new FileInputStream("E:/JAVA Course/Filesource/newfile.txt")) {
                 byte[] b= new byte [fis.available()];
+                System.out.println(fis.markSupported());
                 fis.read(b);
                 String str= new String(b);
                 System.out.print(str);
