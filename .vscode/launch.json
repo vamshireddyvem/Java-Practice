@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Serialization_DataInputStream",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization_DataInputStream",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Serialization_DataOutput",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization_DataOutput",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Serialization1_PrintStream_OutputStream",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization1_PrintStream_OutputStream",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "Serialzation1_PrinStream_InputStream",
             "request": "launch",
             "mainClass": "Serialzation1_PrinStream_InputStream",

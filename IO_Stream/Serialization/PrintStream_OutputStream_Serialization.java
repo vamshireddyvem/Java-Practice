@@ -1,8 +1,8 @@
-package IO_Stream;
+package IO_Stream.Serialization;
 
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.PrintStream;
 
 
@@ -13,8 +13,8 @@ class Student {
     float Avg;
 }
 
-public class Serialization1_PrintStream_OutputStream {
-    public static void main(String[] args) throws FileNotFoundException {
+public class PrintStream_OutputStream_Serialization {
+    public static void main(String[] args) throws IOException {
         FileOutputStream fos= new FileOutputStream("E:\\JAVA Course\\Filesource\\studenrt1.txt");
         PrintStream ps= new PrintStream(fos);
         Student s1= new Student();
@@ -25,6 +25,7 @@ public class Serialization1_PrintStream_OutputStream {
         ps.println(s1.Name);
         ps.println(s1.Avg);
         ps.println(s1.Dept);
-        ps.println(s1.RollNo);   
+        ps.println(s1.RollNo);  
+        fos.close();
     }
 }
