@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Geniric_Excersie",
+            "request": "launch",
+            "mainClass": "Genrics.Geniric_Excersie",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "intro",
+            "request": "launch",
+            "mainClass": "Genrics.intro",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Challenge_IOStream2",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.Challenge_IOStream2",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Challenge_IOStream",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.Challenge_IOStream",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "PrintStream_OutputStream_Serialization",
             "request": "launch",
             "mainClass": "IO_Stream.Serialization.PrintStream_OutputStream_Serialization",
