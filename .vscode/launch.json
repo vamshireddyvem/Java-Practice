@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Genereic_Methods",
+            "request": "launch",
+            "mainClass": "Generics.Genereic_Methods",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Generic_Excersie_2",
+            "request": "launch",
+            "mainClass": "Generics.Generic_Excersie_2",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "Geniric_Excersie",
             "request": "launch",
             "mainClass": "Genrics.Geniric_Excersie",
