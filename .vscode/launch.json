@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pair",
+            "request": "launch",
+            "mainClass": "Pair",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "Genereic_Methods",
             "request": "launch",
             "mainClass": "Generics.Genereic_Methods",
