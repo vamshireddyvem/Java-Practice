@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Array_List",
+            "request": "launch",
+            "mainClass": "Collections.List.Array_List",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "Pair",
             "request": "launch",
             "mainClass": "Pair",
