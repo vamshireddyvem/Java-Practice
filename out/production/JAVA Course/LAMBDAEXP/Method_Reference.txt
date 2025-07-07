@@ -1,0 +1,17 @@
+| Type                                          | Example                     | Used When                            |
+| --------------------------------------------- | --------------------------- | ------------------------------------ |
+| 1️⃣ Static Method                             | `ClassName::staticMethod`   | You want to call a static method     |
+| 2️⃣ Instance Method (on a specific object)    | `object::instanceMethod`    | Call a method on a particular object |
+| 3️⃣ Instance Method (on any object of a type) | `ClassName::instanceMethod` | Call method on each item             |
+| 4️⃣ Constructor Reference                     | `ClassName::new`            | Used to create new objects           |
+
+
+
+difference between method Reference and lambda expression
+
+| Syntax                      | What it does                 | Equivalent Lambda                  |
+| --------------------------- | ---------------------------- | ---------------------------------- |
+| `ClassName::staticMethod`   | Calls static method          | `(x) -> ClassName.staticMethod(x)` |
+| `object::instanceMethod`    | Calls method on object       | `(x) -> object.instanceMethod(x)`  |
+| `ClassName::instanceMethod` | Calls method on each element | `(x, y) -> x.method(y)`            |
+| `ClassName::new`            | Creates object               | `(x) -> new ClassName(x)`          |

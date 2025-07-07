@@ -1,0 +1,21 @@
+Do & Don't of Interfaces:
+
+by default the interfaces methods are public and abstract
+
+we cannot make interface methods private as it is implemented by class itself.
+
+we use identifiers in interfaces by using Uppercase variables as it can understood that the variable is from interface and the identifiers are static and final by default.
+
+we cannot  have body of a method unless it is static or default in interfaces.
+
+if interface method is static and has body, we can call the method by using interface name.methodname();
+
+interfaces can achieve inheritance, they can inherit methods of other interfaces also.
+
+if the interfaces are inherited by other and used in a class it has to override all the abstract methods.
+
+and the default methods can also be overridden in classes.
+
+interfaces are not to be modified if they are modified the classes which overrides the abstract method can be disturbed by its logic and default methods are called using objects too.
+
+default methods is interfaces can also be private which uses the logic within the interface itself. 

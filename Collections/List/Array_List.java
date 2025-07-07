@@ -21,8 +21,8 @@ public class Array_List {
         }
         System.out.println();
         al1.forEach((x)->System.out.print(x));
-        for (Integer integer : al1) {
-            System.out.println(integer);
+        for (var x : al1) {
+            System.out.println(x);
         }
         ListIterator<Integer> it=al1.listIterator();it.hasNext();
         while(it.hasNext())

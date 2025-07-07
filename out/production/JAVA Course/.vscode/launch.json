@@ -1,0 +1,789 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Array_List",
+            "request": "launch",
+            "mainClass": "Collections.List.Array_List",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Pair",
+            "request": "launch",
+            "mainClass": "Pair",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Genereic_Methods",
+            "request": "launch",
+            "mainClass": "Generics.Genereic_Methods",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Generic_Excersie_2",
+            "request": "launch",
+            "mainClass": "Generics.Generic_Excersie_2",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Geniric_Excersie",
+            "request": "launch",
+            "mainClass": "Genrics.Geniric_Excersie",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "intro",
+            "request": "launch",
+            "mainClass": "Genrics.intro",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Challenge_IOStream2",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.Challenge_IOStream2",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Challenge_IOStream",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.Challenge_IOStream",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "PrintStream_OutputStream_Serialization",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.PrintStream_OutputStream_Serialization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "DataStream_OutputStream_Serialization",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.DataStream_OutputStream_Serialization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "DataStream_InputStream_Serialization",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.DataStream_InputStream_Serialization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "PrintStream_InputStream_Serialization",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.PrintStream_InputStream_Serialization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Object_Output_Serialization",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.Object_Output_Serialization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Object_InputStream_Serialization",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.Object_InputStream_Serialization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "ObjectOutput_Serialization",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization.ObjectOutput_Serialization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Serialization_DataInputStream",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization_DataInputStream",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Serialization_DataOutput",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization_DataOutput",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Serialization1_PrintStream_OutputStream",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization1_PrintStream_OutputStream",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Serialzation1_PrinStream_InputStream",
+            "request": "launch",
+            "mainClass": "Serialzation1_PrinStream_InputStream",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Serialzation1_PrinStream_InputStream",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialzation1_PrinStream_InputStream",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Serialization1",
+            "request": "launch",
+            "mainClass": "IO_Stream.Serialization1",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "File_Class",
+            "request": "launch",
+            "mainClass": "IO_Stream.File_Class",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "P_C_PIPEDStream",
+            "request": "launch",
+            "mainClass": "IO_Stream.P_C_PIPEDStream",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "InputStream_Prac",
+            "request": "launch",
+            "mainClass": "IO_Stream.InputStream_Prac",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Buffered_InputStream",
+            "request": "launch",
+            "mainClass": "IO_Stream.Buffered_InputStream",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "CharArray_IS",
+            "request": "launch",
+            "mainClass": "I.O_Stream.CharArray_IS",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Byte_Array_OS",
+            "request": "launch",
+            "mainClass": "I.O_Stream.Byte_Array_OS",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Byte_Array_IO",
+            "request": "launch",
+            "mainClass": "I.O_Stream.Byte_Array_IO",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Copying_Two_Files",
+            "request": "launch",
+            "mainClass": "I.O_Stream.Copying_Two_Files",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Copy_Challeange",
+            "request": "launch",
+            "mainClass": "I.O_Stream.Copy_Challeange",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "InputStream_Prac",
+            "request": "launch",
+            "mainClass": "I.O_Stream.InputStream_Prac",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "OutputStream_Prac",
+            "request": "launch",
+            "mainClass": "I.O_Stream.OutputStream_Prac",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "MethodReferenceExample",
+            "request": "launch",
+            "mainClass": "LAMBDAEXP.MethodReferenceExample",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Method_Reference1",
+            "request": "launch",
+            "mainClass": "LAMBDAEXP.Method_Reference1",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Method_Reference",
+            "request": "launch",
+            "mainClass": "LAMBDAEXP.Method_Reference",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Lambdaparam",
+            "request": "launch",
+            "mainClass": "LAMBDAEXP.Lambdaparam",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Lambdaexp",
+            "request": "launch",
+            "mainClass": "LAMBDAEXP.Lambdaexp",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "enumeration",
+            "request": "launch",
+            "mainClass": "Packages.enumeration",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "mydoc",
+            "request": "launch",
+            "mainClass": "javdoc.mydoc",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "SCThread2",
+            "request": "launch",
+            "mainClass": "Multithreading.SCThread2",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "student_excersie_whiteboard",
+            "request": "launch",
+            "mainClass": "Multithreading.student_excersie_whiteboard",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "InterProcess",
+            "request": "launch",
+            "mainClass": "Multithreading.InterProcess",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "inter_thread_communication",
+            "request": "launch",
+            "mainClass": "Multithreading.inter_thread_communication",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "student_excersie",
+            "request": "launch",
+            "mainClass": "Multithreading.student_excersie",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "synchronization",
+            "request": "launch",
+            "mainClass": "Multithreading.synchronization",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "demo_DC_thread_with_runnable_constructors",
+            "request": "launch",
+            "mainClass": "Multithreading.demo_DC_thread_with_runnable_constructors",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "demo_DC_runnable",
+            "request": "launch",
+            "mainClass": "Multithreading.demo_DC_runnable",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "demo_DC_thread",
+            "request": "launch",
+            "mainClass": "Multithreading.demo_DC_thread",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "demo_runnable",
+            "request": "launch",
+            "mainClass": "Multithreading.demo_runnable",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "Multithreading.demo",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "student_excerise",
+            "request": "launch",
+            "mainClass": "Exceptional_handling.student_excerise",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "own_exception",
+            "request": "launch",
+            "mainClass": "Exceptional_handling.own_exception",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "MethodChainingExample",
+            "request": "launch",
+            "mainClass": "MethodChainingExample",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Nestedtrycatch",
+            "request": "launch",
+            "mainClass": "Exceptional_handling.Nestedtrycatch",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "ifdemo",
+            "request": "launch",
+            "mainClass": "ifdemo",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "Exceptional_handling.demo",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "Static_Final.Student",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Do_and_Dont",
+            "request": "launch",
+            "mainClass": "OOJ.Interfaces.Do_and_Dont",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "deal",
+            "request": "launch",
+            "mainClass": "OOJ.Interfaces.deal",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "testdog",
+            "request": "launch",
+            "mainClass": "testdog",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "daysMonth",
+            "request": "launch",
+            "mainClass": "daysMonth",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Shop",
+            "request": "launch",
+            "mainClass": "OOJ.Shop",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Consumer",
+            "request": "launch",
+            "mainClass": "OOJ.Consumer",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "CylinderArea",
+            "request": "launch",
+            "mainClass": "OOJ.Constructors.CylinderArea",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "DiscountMethod",
+            "request": "launch",
+            "mainClass": "Methods.DiscountMethod",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Sum_Of_Array_VaraiableArgs",
+            "request": "launch",
+            "mainClass": "Methods.Sum_Of_Array_VaraiableArgs",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Max_VariableArguments",
+            "request": "launch",
+            "mainClass": "Methods.Max_VariableArguments",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "FibanocciMethod",
+            "request": "launch",
+            "mainClass": "Methods.FibanocciMethod",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "ValidateMethod",
+            "request": "launch",
+            "mainClass": "Methods.ValidateMethod",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "ReversingIntORArray",
+            "request": "launch",
+            "mainClass": "Methods.ReversingIntORArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "MaxArrayMethod",
+            "request": "launch",
+            "mainClass": "Methods.MaxArrayMethod",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "GCDMethod2",
+            "request": "launch",
+            "mainClass": "Methods.GCDMethod2",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "GCDMethod",
+            "request": "launch",
+            "mainClass": "Methods.GCDMethod",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Prime",
+            "request": "launch",
+            "mainClass": "Methods.Prime",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "MethodsIntro",
+            "request": "launch",
+            "mainClass": "Methods.MethodsIntro",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "ArraySort",
+            "request": "launch",
+            "mainClass": "Arrays.ArraySort",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "MultiplyArray",
+            "request": "launch",
+            "mainClass": "Arrays.MultiplyArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "jagged2DArray",
+            "request": "launch",
+            "mainClass": "Arrays.jagged2DArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "TwoDimensionalArray",
+            "request": "launch",
+            "mainClass": "Arrays.TwoDimensionalArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "SizeArray",
+            "request": "launch",
+            "mainClass": "SizeArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "ReversingArray",
+            "request": "launch",
+            "mainClass": "arrays.ReversingArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "SizeArray",
+            "request": "launch",
+            "mainClass": "arrays.SizeArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "ShiftingArrayE",
+            "request": "launch",
+            "mainClass": "arrays.ShiftingArrayE",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "InsertArray",
+            "request": "launch",
+            "mainClass": "arrays.InsertArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "DeletionArray",
+            "request": "launch",
+            "mainClass": "arrays.DeletionArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "MaxArray",
+            "request": "launch",
+            "mainClass": "arrays.MaxArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "SearchArray",
+            "request": "launch",
+            "mainClass": "arrays.SearchArray",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "search",
+            "request": "launch",
+            "mainClass": "arrays.search",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "intro",
+            "request": "launch",
+            "mainClass": "arrays.intro",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "SumArrayE",
+            "request": "launch",
+            "mainClass": "arrays.SumArrayE",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Pattern6",
+            "request": "launch",
+            "mainClass": "Pattern6",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Pattern5",
+            "request": "launch",
+            "mainClass": "Pattern5",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Pattern4",
+            "request": "launch",
+            "mainClass": "Pattern4",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "pattern3",
+            "request": "launch",
+            "mainClass": "pattern3",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "CountLoop",
+            "request": "launch",
+            "mainClass": "CountLoop",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "NestedLoops",
+            "request": "launch",
+            "mainClass": "NestedLoops",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "WordsNo",
+            "request": "launch",
+            "mainClass": "WordsNo",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "reverseNo",
+            "request": "launch",
+            "mainClass": "reverseNo",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "armstrong",
+            "request": "launch",
+            "mainClass": "armstrong",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "digits",
+            "request": "launch",
+            "mainClass": "digits",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "factors",
+            "request": "launch",
+            "mainClass": "factors",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "prime1",
+            "request": "launch",
+            "mainClass": "prime1",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "menu",
+            "request": "launch",
+            "mainClass": "menu",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "website",
+            "request": "launch",
+            "mainClass": "website",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "exp",
+            "request": "launch",
+            "mainClass": "exp",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Exercise2",
+            "request": "launch",
+            "mainClass": "Exercise2",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Exercise1",
+            "request": "launch",
+            "mainClass": "Exercise1",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Prime",
+            "request": "launch",
+            "mainClass": "Prime",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "jdk",
+            "request": "launch",
+            "name": "Launch Java App"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
