@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Array_Deque",
+            "request": "launch",
+            "mainClass": "Collections.Queue.Array_Deque",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Linked_List",
+            "request": "launch",
+            "mainClass": "Collections.List.Linked_List",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "Array_List",
             "request": "launch",
             "mainClass": "Collections.List.Array_List",

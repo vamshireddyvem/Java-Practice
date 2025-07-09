@@ -21,13 +21,26 @@ public class Array_List {
         }
         System.out.println();
         al1.forEach((x)->System.out.print(x));
+        System.out.println();
         for (var x : al1) {
-            System.out.println(x);
+            System.out.print(x);
         }
-        ListIterator<Integer> it=al1.listIterator();it.hasNext();
+        System.out.println();
+        ListIterator<Integer> it=al1.listIterator();
         while(it.hasNext())
         System.out.print(it.next());
-
+        System.out.println();
+        for(ListIterator<Integer> it2=al1.listIterator();it2.hasNext();)
+        System.out.print(it2.next());
+        System.out.println();
+        al1.forEach(n->System.out.print(n));
+        System.out.println();
+        al1.forEach(System.out::print);
+        System.out.println();
+        al1.forEach(n->show(n));
         
+    }
+    static void show(int n){
+        if(n>100) System.out.println(n);
     }
 }
