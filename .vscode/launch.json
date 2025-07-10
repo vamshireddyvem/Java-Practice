@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Hash_Set",
+            "request": "launch",
+            "mainClass": "Collections.Set.Hash_Set",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Priority_Queue",
+            "request": "launch",
+            "mainClass": "Collections.Queue.Priority_Queue",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "Array_Deque",
             "request": "launch",
             "mainClass": "Collections.Queue.Array_Deque",
