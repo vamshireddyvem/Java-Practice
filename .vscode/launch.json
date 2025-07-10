@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Tree_Set",
+            "request": "launch",
+            "mainClass": "Collections.Set.Tree_Set",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "Hash_Set",
             "request": "launch",
             "mainClass": "Collections.Set.Hash_Set",
