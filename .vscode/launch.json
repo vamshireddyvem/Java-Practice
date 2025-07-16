@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Depricated_Date_Class",
+            "request": "launch",
+            "mainClass": "DATE.Depricated_Date_Class",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "Student_Challange",
             "request": "launch",
             "mainClass": "Collections.Student_Challange",
