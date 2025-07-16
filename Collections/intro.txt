@@ -1,4 +1,4 @@
-collections are a framework that provides a set of classes and interfaces for storing and manipulating groups of objects efficiently. The Java Collections Framework (JCF) was introduced in JDK 1.2 and includes various data structures like lists, sets, queues, and maps.
+Collections are a framework that provides a set of classes and interfaces for storing and manipulating groups of objects efficiently. The Java Collections Framework (JCF) was introduced in JDK 1.2 and includes various data structures like lists, sets, queues, and maps.
 
 Key Components of Java Collections:
 - Interfaces – Define the abstract data types (e.g., List, Set, Queue, Map).
@@ -10,3 +10,109 @@ Common Collection Types:
 - Set (HashSet, TreeSet, LinkedHashSet) – Unordered collection that does not allow duplicates.
 - Queue (PriorityQueue, ArrayDeque) – Follows FIFO (First-In-First-Out) order.
 - Map (HashMap, TreeMap, LinkedHashMap) – Stores key-value pairs.
+-------------------------------------------------------------------------------------------------------------------------------------------
+📘 List
+Lists represent **ordered collections** that allow **duplicate elements**. They're best for indexed access and maintaining insertion order.
+
+🔹 ArrayList
+An `ArrayList` is backed by a dynamic array. It offers fast random access (`O(1)`) and is ideal when frequent reads outnumber inserts/removals.
+
+- Maintains insertion order
+- Allows duplicates
+- Not thread-safe
+- Efficient lookup and iteration
+
+🔹 LinkedList
+A `LinkedList` is built on a doubly linked list, making it efficient for insertion and deletion—but slower for random access (`O(n)`).
+
+- Maintains order
+- Allows duplicates
+- Slower element lookup
+- Good for FIFO or LIFO operations when used as a `Queue`
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+🟩 Set
+
+Sets are collections that **prohibit duplicate elements**. They’re perfect for checking membership or ensuring uniqueness.
+
+🔹 HashSet
+A `HashSet` is backed by a `HashMap` internally and offers constant time (`O(1)`) operations—but does **not maintain order**.
+
+- No duplicates allowed
+- No guaranteed order
+- Fast performance
+- Uses `hashCode()` for internal positioning
+
+🔹 LinkedHashSet
+This variant maintains **insertion order** while preserving uniqueness, using a linked list behind the scenes.
+
+- Keeps elements in the order they were added
+- Still has `O(1)` performance
+- Useful when iteration order matters
+🔹 TreeSet
+A `TreeSet` uses a **Red-Black Tree** to store elements in a **sorted** manner.
+
+- No duplicates
+- Elements sorted by natural order or custom comparator
+- Slower (`O(log n)`), but ordered
+- Great for range-based queries
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+🗺️ Map
+
+Maps store **key-value pairs**, and are your go-to structure when you need fast lookup based on keys.
+
+🔹 HashMap
+A `HashMap` is fast (`O(1)` lookup), allowing null values and one null key. It's unordered and ideal for general use.
+
+- Keys must be unique
+- Values can repeat
+- Does not maintain order
+- Requires `hashCode()` and `equals()` for key behavior
+
+🔹 LinkedHashMap
+This variant maintains the **order in which keys are inserted**, making it excellent for predictable iteration.
+
+- Same fast performance as `HashMap`
+- Preserves insertion order of keys
+- Great for caching systems
+
+🔹 TreeMap
+A `TreeMap` keeps keys sorted using a `Comparable` or `Comparator`. Its operations run in `O(log n)` time.
+
+- Keys stored in sorted order
+- No null keys allowed
+- Useful for navigation-based lookups (floor, ceiling, etc.)
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+## 🌀 Queue
+
+Queues manage elements with **ordering rules**, commonly FIFO (first-in-first-out), but can vary depending on implementation.
+
+🔹 ArrayDeque
+An `ArrayDeque` is a double-ended queue supporting stack and queue operations. It’s highly efficient and does not accept `null`.
+
+- Fast `O(1)` inserts/removals from both ends
+- Can act like stack or queue
+- No thread-safety by default
+
+🔹 PriorityQueue
+This queue maintains **natural or custom ordering** of elements based on priority—not insertion order.
+
+- Uses heap structure for internal ordering
+- `O(log n)` operations
+- Great for scheduling tasks or sorting on-the-fly
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+📊 Java Collections Overview
+🧠 Notes & Tips
+•	List is best when order matters and duplicates are allowed.
+•	Set ensures uniqueness, with variants for speed or ordering.
+•	Map is for key-value storage, not designed to hold duplicate keys.
+•	Queue and its implementations (ArrayDeque, PriorityQueue) manage elements with specific access policies (FIFO, priority).
+•	TreeSet and TreeMap require natural ordering or Comparator.
+•	None of these are thread-safe by default—use Collections.synchronized*() or concurrent versions if needed.

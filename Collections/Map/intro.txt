@@ -1,0 +1,9 @@
+its stores key and value 
+performance is o1 times
+mostly used for searching
+access by key or value by using getkey/ get value()
+
+- Keys must be unique, but values can repeat
+- Implements the Map interface (not a subtype of Collection)
+- Backed by structures like HashMap, TreeMap, LinkedHashMap
+

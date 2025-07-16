@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Student_Challange",
+            "request": "launch",
+            "mainClass": "Collections.Student_Challange",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Bit_Set",
+            "request": "launch",
+            "mainClass": "Collections.Bit_Set",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "String_Tokenizer",
+            "request": "launch",
+            "mainClass": "Collections.String_Tokenizer",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Hash_table",
+            "request": "launch",
+            "mainClass": "Collections.Map.Hash_table",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Linked_Hash_Set",
+            "request": "launch",
+            "mainClass": "Collections.Set.Linked_Hash_Set",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Hash_Map",
+            "request": "launch",
+            "mainClass": "Collections.Map.Hash_Map",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
+            "name": "Tree_Set",
+            "request": "launch",
+            "mainClass": "Collections.Map.Tree_Set",
+            "projectName": "JAVA Course_a96e757f"
+        },
+        {
+            "type": "java",
             "name": "Tree_Set",
             "request": "launch",
             "mainClass": "Collections.Set.Tree_Set",

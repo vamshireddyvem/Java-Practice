@@ -1,0 +1,6 @@
+A Set is a collection of unique elements—kind of like a guest list where no one gets invited twice.
+✅ Key Traits:
+- No duplicates allowed
+- No key-value pairing—just the values
+- Implements the Collection interface
+- Backed by different structures: HashSet, TreeSet, LinkedHashSet.
