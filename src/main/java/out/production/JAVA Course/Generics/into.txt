@@ -1,0 +1,89 @@
+Java Generics allow you to write flexible, reusable, and type-safe code. They help avoid runtime errors by checking types at compile time. Here’s a breakdown designed for a beginner, along with a cheat sheet:
+
+Why Use Generics in Java?
+- Type Safety – Prevents ClassCastException errors by enforcing compile-time type checks.
+- Code Reusability – Write methods and classes that work with different types without duplicating logic.
+- Eliminate Type Casting – Avoid explicit casting, which simplifies code readability.
+- Improve Performance – Helps the compiler optimize code execution by knowing specific data types.
+
+How to Use Generics
+Basic Syntax
+- Declaring a generic class:
+                                class Box<T> {  // T is a placeholder for any type
+                                    private T item;
+
+                                    public void setItem(T item) { this.item = item; }
+                                    public T getItem() { return item; }
+                                }
+
+*******************************************************************************************************************************************
+
+- Using the generic class:
+                                Box<String> stringBox = new Box<>();
+                                stringBox.setItem("Hello");
+                                System.out.println(stringBox.getItem());  // Output: Hello
+
+
+Generic Methods
+- A method that can accept any type:
+                                    public static <T> void printItem(T item) {
+                                        System.out.println(item);
+                                    }
+
+                                        printItem(42);         // Works for Integer
+                                        printItem("Generics"); // Works for String
+
+
+Bounded Generics- Restricting the type parameter to specific classes (e.g., only Number and its subclasses):
+                                    class NumericBox<T extends Number> {
+                                        private T number;
+
+                                        public NumericBox(T number) { this.number = number; }
+                                        public double getDoubleValue() { return number.doubleValue(); }
+                                    }
+
+                                    NumericBox<Integer> intBox = new NumericBox<>(100);
+                                    System.out.println(intBox.getDoubleValue());  // Output: 100.0
+
+*******************************************************************************************************************************************
+Wildcard (?) in Generics- Upper Bound (? extends T) – Accepts any subclass of T:
+                                    public static void processNumbers(List<? extends Number> numbers) {
+                                        for (Number num : numbers) {
+                                            System.out.println(num);
+                                        }
+                                    }
+Lower Bound (? super T) – Accepts any superclass of T:
+                                    public static void addIntegers(List<? super Integer> list) {
+                                        list.add(42);
+                                    }
+
+*******************************************************************************************************************************************
+
+Pros and Cons
+✅ Pros
+- Enforces compile-time type safety.
+- Reduces redundant code and promotes reusability.
+- Eliminates explicit type casting.
+- Supports object-oriented principles like polymorphism.
+❌ Cons
+- Type erasure: Generics are removed during runtime, limiting reflection capabilities.
+- Limited primitive support: Generics don’t work with primitives (like int, double). You must use wrapper classes (Integer, Double).
+- Cannot instantiate generic types directly: You can’t do new T() inside a generic class because Java doesn’t know the type at runtime.
+
+Cheat Sheet
+| Feature           | Example                                  | Use Case                        | 
+| Generic Class     | class Box<T> { }                         | Store and manage any type       | 
+| Generic Method    | <T> void print(T item) { }               | Method that works for all types | 
+| Bounded Type      | class NumericBox<T extends Number> { }   | Restrict type to a hierarchy    | 
+| Wildcards         | List<? extends Number>                   | Accept subtypes                 | 
+| Wildcards (super) | List<? super Integer>                    | Accept supertypes               | 
+
+
+Do's and Don'ts in Generics
+1. Only extends is allowed in Generic class definition
+2. extends is used for interfaces also
+3. extends from Only one class and multiple interfaces
+4. extends and super are allowed with ? In methods
+5. <?> will accept all types but cannot access
+6. Base type of an Object should be same or <?>
+
