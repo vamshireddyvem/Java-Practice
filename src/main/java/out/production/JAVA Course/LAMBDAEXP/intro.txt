@@ -1,9 +1,0 @@
-a interface with a single method is called functional Interface.
-by creating a anynomus object of the interface which implements or overrides the method where it can be overridded and which acts as a object of the interface.
-for ex: interface my{
-    void display();
-}
-and it implements by creating of an object and overidding the method at the same time like below
-my g=() -> {" block of the code"}
-
-(->) is lambda expression

@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"javdoc","c":"Student12","l":"display()"},{"p":"javdoc","c":"Student12","l":"getDept(String)","u":"getDept(java.lang.String)"},{"p":"javdoc","c":"Student12","l":"getRollno(int)"},{"p":"javdoc","c":"Student12","l":"totalmarks(int, int, int)","u":"totalmarks(int,int,int)"}];updateSearchResults();

@@ -1,5 +1,0 @@
-There are 4-types of Inner Class they are 
-1. Nested Inner Class: Where a Class is nested inside the a Outer Class and the members and variables of outer class is accessible by Nested inner Class but the members and variables of inner class cannot be accesible by outer class unless we create a object of inner class.
-2. Local Inner Class: Where a Class is created inside a method of a Outer class which is limted by the method only.
-3. Anonymous Inner Class: A  Inner class i created without any reference and it is mostly used to overrride abstract and Interfaces of a class, where a class is a inner class is created without any reference and overrride its abstract method within the object.
-4.Static Inner Class: when a Inner class is Static it is directly accesible outside of a Outer class and the members of static class can only static variables and static members ony.
