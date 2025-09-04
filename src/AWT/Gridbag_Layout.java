@@ -61,7 +61,7 @@ class MyFrame11 extends Frame{
     }
 }
 
-public class Gridbag_Lauout {
+public class Gridbag_Layout {
         public static void main(String[] args) {
             MyFrame11 my10= new MyFrame11();
 
