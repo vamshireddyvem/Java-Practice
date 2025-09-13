@@ -49,6 +49,8 @@ class MyFrame12 extends Frame implements KeyListener{
 }
 
 public class KEY_EVENT {
+    public static int VK_B;
+
     public static void main(String[] args) {
         MyFrame12 myf= new MyFrame12();
         myf.setVisible(true);
