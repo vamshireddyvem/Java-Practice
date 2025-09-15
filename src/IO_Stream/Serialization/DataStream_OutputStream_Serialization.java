@@ -1,4 +1,4 @@
-package IO_Stream.Serialization;
+package Serialization;
 
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;

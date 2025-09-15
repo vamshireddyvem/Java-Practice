@@ -6,7 +6,7 @@ public class leapYear{
         Scanner Sc= new Scanner(System.in);
         System.out.println("Enter Year");
         year=Sc.nextInt();
-        if (year.matches("[0-9]{4}")){
+        if (String.valueOf(year).matches("[0-9]{4}")){
         if (year%4==0){
             System.out.println("This is a Leap Year");
             days=days++;

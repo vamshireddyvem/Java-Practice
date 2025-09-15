@@ -1,4 +1,4 @@
-package Generics;
+
 class MyArray<T>{
     @SuppressWarnings("unchecked")
     T user[]= (T[])new Object[10];

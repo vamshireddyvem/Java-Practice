@@ -1,4 +1,4 @@
-package IO_Stream.Serialization;
+package Serialization;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

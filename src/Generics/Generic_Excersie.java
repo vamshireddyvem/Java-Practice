@@ -1,4 +1,4 @@
-package Generics;
+
 class InnerGeneric_Excersie <T>{ 
 T Data;
 void setData(T Data){

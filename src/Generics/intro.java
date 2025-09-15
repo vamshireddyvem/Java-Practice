@@ -1,4 +1,4 @@
-package Generics;
+
 
 public class intro {
     public static void main(String[] args) {

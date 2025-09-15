@@ -1,4 +1,4 @@
-package Generics;
+
 class A<T>{}
 class B<T> extends A<T>{}
 class C extends B{}

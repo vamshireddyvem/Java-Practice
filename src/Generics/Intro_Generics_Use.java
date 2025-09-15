@@ -1,4 +1,4 @@
-package Generics;
+
 
 class Intro_Generics_Use<T>{
  @SuppressWarnings("unchecked")
