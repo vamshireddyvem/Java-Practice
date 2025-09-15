@@ -47,13 +47,10 @@ public class Student_Challange {
         ois.close();
             
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         try {
@@ -122,10 +119,8 @@ public class Student_Challange {
             fos.close();
             
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }

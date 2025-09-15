@@ -41,7 +41,6 @@ class InnerAnimation extends Frame implements Runnable{
             try {
                 Thread.sleep(5);
             } catch (Exception e) {
-                // TODO: handle exception
             }
         }
     }

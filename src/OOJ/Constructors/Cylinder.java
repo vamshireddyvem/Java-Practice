@@ -1,7 +1,5 @@
 package OOJ.Constructors;
 
-import OOJ.Product;
-
 public class Cylinder {
     private double radius;
     private double height;

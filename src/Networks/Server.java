@@ -11,24 +11,24 @@ public class Server {
     public static void main(String[] args) {
        
         try {
-        ServerSocket ss= new ServerSocket();
-        Socket st = ss.accept();
-        
-        BufferedReader br= new BufferedReader(new InputStreamReader(st.getInputStream()));
-        PrintStream ps = new PrintStream(st.getOutputStream());
+        try (ServerSocket ss = new ServerSocket()) {
+            Socket st = ss.accept();
+            
+            BufferedReader br= new BufferedReader(new InputStreamReader(st.getInputStream()));
+            PrintStream ps = new PrintStream(st.getOutputStream());
 
-        String msg;
-        StringBuilder sbr;
-            do {
-                msg=br.readLine();
-                sbr= new StringBuilder(msg);
-                sbr.reverse();
-                msg=sbr.toString();
-                ps.println(msg);
-            } while (!msg.equals("dne"));
-                st.close();
+            String msg;
+            StringBuilder sbr;
+                do {
+                    msg=br.readLine();
+                    sbr= new StringBuilder(msg);
+                    sbr.reverse();
+                    msg=sbr.toString();
+                    ps.println(msg);
+                } while (!msg.equals("dne"));
+                    st.close();
+        }
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }

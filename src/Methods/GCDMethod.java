@@ -13,9 +13,10 @@ public class GCDMethod {
 }
     public static void main(String[] args) {
         int num1,num2;
-        Scanner Sc=new Scanner(System.in);
-        num1=Sc.nextInt();
-        num2=Sc.nextInt();
+        try (Scanner Sc = new Scanner(System.in)) {
+            num1=Sc.nextInt();
+            num2=Sc.nextInt();
+        }
         System.out.println("GCD of "+num1+" and "+num2+" is "+FindGCD(num1, num2));
         }
     }

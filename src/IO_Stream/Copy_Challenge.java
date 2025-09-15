@@ -21,10 +21,8 @@ public class Copy_Challenge {
             fis1.close();
             fos1.close();
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }

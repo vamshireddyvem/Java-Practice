@@ -1,7 +1,6 @@
 
 
 class Intro_Generics_Use<T>{
- @SuppressWarnings("unchecked")
  T user[]=(T[])new Object[3];
 
     public static void main(String[] args) {

@@ -1,7 +1,5 @@
 package OOJ;
 
-import java.rmi.Naming;
-
 public class Product {
     
     private String Name;

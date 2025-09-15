@@ -1,6 +1,5 @@
 package Collections.Map;
 
-import java.util.Enumeration;
 import java.util.Hashtable;
 
 public class Hash_table {

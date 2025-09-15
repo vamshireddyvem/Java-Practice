@@ -22,7 +22,6 @@ public class Client {
             } while (!msg.equals("nde"));
             st.close();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }

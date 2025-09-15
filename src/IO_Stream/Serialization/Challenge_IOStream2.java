@@ -45,27 +45,28 @@ public class Challenge_IOStream2 {
         catch(IOException e){};
     
         try{
-        Scanner scs= new Scanner(System.in);
-        FileInputStream fis= new FileInputStream("E:\\JAVA Course\\Filesource\\Challenge2.txt");
-        ObjectInputStream ois =new ObjectInputStream(fis);
-        int length= ois.readInt();
-        Customer customers[]=new Customer[length];
-            for(int i=0; i<length;i++){
-                customers[i]=(Customer)ois.readObject();
+        try (Scanner scs = new Scanner(System.in)) {
+            FileInputStream fis= new FileInputStream("E:\\JAVA Course\\Filesource\\Challenge2.txt");
+            try (ObjectInputStream ois = new ObjectInputStream(fis)) {
+                int length= ois.readInt();
+                Customer customers[]=new Customer[length];
+                    for(int i=0; i<length;i++){
+                        customers[i]=(Customer)ois.readObject();
+                    }
+                    System.out.println("Enter the Name of the Customer");
+                    String name= scs.nextLine();
+                    for(int i=0; i<length;i++){
+                        if(name.equalsIgnoreCase(customers[i].Name)){
+                            System.out.println(customers[i]);
+                        };
+                    }
             }
-            System.out.println("Enter the Name of the Customer");
-            String name= scs.nextLine();
-            for(int i=0; i<length;i++){
-                if(name.equalsIgnoreCase(customers[i].Name)){
-                    System.out.println(customers[i]);
-                };
-            }
+        }
 
         }
         catch(IOException e){
 
         } catch (ClassNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
 }

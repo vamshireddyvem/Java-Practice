@@ -9,10 +9,11 @@ public class Prepared_Statement {
         Class.forName("org.sqlite.JDBC");
         Connection con = DriverManager.getConnection("jdbc:sqlite:C://sqlite//univ.db");
         PreparedStatement ps = con.prepareStatement("select * from students where deptno=?");
-        Scanner sc= new Scanner(System.in);
-        System.out.println("Enter the Department Number");
-        int dno=sc.nextInt();
-        ps.setInt(1, dno);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the Department Number");
+            int dno=sc.nextInt();
+            ps.setInt(1, dno);
+        }
         ResultSet rs = ps.executeQuery();
         while (rs.next()) {
             System.out.print(rs.getInt("roll")+" | ");

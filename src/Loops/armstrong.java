@@ -4,9 +4,10 @@ import java.util.*;
 public class armstrong {
     public static void main(String[] args) {
         int n,r,sum=0;
-        Scanner sc= new Scanner(System.in);
-        System.out.println("Enter the Number you want to check");
-        n=sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the Number you want to check");
+            n=sc.nextInt();
+        }
         int m=n;
         while(n>0){
             r=n%10;

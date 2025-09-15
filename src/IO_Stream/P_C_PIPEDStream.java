@@ -22,7 +22,6 @@ class producer extends Thread{
                 Thread.sleep(10);
                 count++;
             } catch (IOException | InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }    
         }
@@ -44,7 +43,6 @@ class consumer extends Thread{
                 Thread.sleep(10);
             
             } catch (IOException | InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }    
         }

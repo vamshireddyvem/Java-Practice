@@ -1,6 +1,5 @@
 package Collections.Set;
 
-import java.util.List;
 import java.util.TreeSet;
 class Point implements Comparable{
     int x;

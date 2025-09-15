@@ -1,6 +1,5 @@
 
 class MyArray<T>{
-    @SuppressWarnings("unchecked")
     T user[]= (T[])new Object[10];
     int count;
     void append(T v){

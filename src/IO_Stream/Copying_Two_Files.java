@@ -21,10 +21,8 @@ public class Copying_Two_Files {
             fis3.close();
             fos2.close();
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
