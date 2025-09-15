@@ -13,7 +13,6 @@ public class relation{
                 else{
                 System.out.println("a is ODD");
                 }
-        }
         if (b%2==0){
             System.out.println("b is EVEN");
         }
@@ -26,6 +25,6 @@ public class relation{
             else{
                 System.out.println("c is ODD");
             }
-       
+        }
     }
 }

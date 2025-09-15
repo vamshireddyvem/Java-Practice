@@ -24,7 +24,7 @@ class Static_Members{
        Phone ip= new Phone();
        System.out.println(Phone.price);
        Phone.price=20;
-       ip.price=13;
+       Phone.price=13;
        Phone.GrandTotal("Hyd");
        System.out.println(Phone.price);
        ip.show();
