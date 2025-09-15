@@ -11,7 +11,7 @@ class MyFrame10 extends Frame{
         super("Grid_Layout");
         setLayout(new GridLayout(3,3));
         setSize(300,300);
-        setVisible(true);
+        
         b1= new Button("One");
         b2= new Button("Two");
         b3= new Button("Three");
@@ -32,6 +32,7 @@ class MyFrame10 extends Frame{
 public class Grid_Layout {
     public static void main(String[] args) {
         MyFrame10 my10= new MyFrame10();
+        my10.setVisible(true);
 
     }
 }

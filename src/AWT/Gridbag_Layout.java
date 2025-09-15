@@ -17,7 +17,7 @@ class MyFrame11 extends Frame{
       
         setSize(300,300);
         setLayout(gbl);
-        setVisible(true);
+        
         b1= new Button("One");
         b2= new Button("Two");
         b3= new Button("Three");
@@ -64,6 +64,7 @@ class MyFrame11 extends Frame{
 public class Gridbag_Layout {
         public static void main(String[] args) {
             MyFrame11 my10= new MyFrame11();
+            my10.setVisible(true);
 
     }
 }

@@ -26,11 +26,12 @@ class MyFrame9 extends Frame{
         add(b5,BorderLayout.SOUTH);
         add(b6,BorderLayout.NORTH);
         add(b7);
-        setVisible(true);
+        
     }
 }
 public class Border_Layout {
     public static void main(String[] args) {
         MyFrame9 my9 = new MyFrame9();
+        my9.setVisible(true);
     }
 }
