@@ -2,9 +2,10 @@ import java.util.*;
 public class website{
     public static void main (String args[]){
         String protocol,url;
-        Scanner sc= new Scanner(System.in);
-        System.out.println("Enter url");
-        url=sc.nextLine();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter url");
+            url=sc.nextLine();
+        }
         protocol = url.substring(0, url.indexOf(':'));
         if (protocol.equals("https")){
             System.out.println("Hyper-Text Protocol Secure");

@@ -4,8 +4,9 @@ public class day {
     public static void main(String args[]){
         int day;
         System.out.println("Enter Day in No");
-        Scanner sc= new Scanner(System.in);
-        day=sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            day=sc.nextInt();
+        }
         switch(day){
             case 1:
             System.out.println("Monday");

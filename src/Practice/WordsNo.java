@@ -4,14 +4,15 @@ public class WordsNo {
     public static void main(String args[]){
         String str="";
         int r;
-        Scanner sc= new Scanner(System.in);
-        System.out.println("Enter Your Number");
-        int n=sc.nextInt();
-        
-        while(n>0){
-            r=n%10;
-            n=n/10;
-            str=str+r;
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter Your Number");
+            int n=sc.nextInt();
+            
+            while(n>0){
+                r=n%10;
+                n=n/10;
+                str=str+r;
+            }
         }
         System.out.println(str.length());
         for(int i=str.length()-1;i>=0;i--){

@@ -4,9 +4,10 @@ class Fibonacci{
         int a=0;
         int b=1;
         int c,n;
-        Scanner sc= new Scanner (System.in);
-        System.out.println("Enters No.Of TIMES");
-        n=sc.nextInt();
+        try (Scanner sc = new Scanner (System.in)) {
+            System.out.println("Enters No.Of TIMES");
+            n=sc.nextInt();
+        }
         System.out.print(a +", "+b+", ");
         for (int i=0; i<n;i++){
             c=a+b;

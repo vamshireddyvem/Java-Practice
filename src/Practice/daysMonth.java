@@ -2,11 +2,12 @@ import java.util.Scanner;
 class daysMonth{
     public static void main(String args[]){
         int year,month;
-        Scanner s=new Scanner(System.in);
-        System.out.print("Enter year: ");
-        year=s.nextInt();
-        System.out.print("Enter month (1-12): ");
-        month=s.nextInt();
+        try (Scanner s = new Scanner(System.in)) {
+            System.out.print("Enter year: ");
+            year=s.nextInt();
+            System.out.print("Enter month (1-12): ");
+            month=s.nextInt();
+        }
         if (month>0 && month<13){
             if (month == 1 || month == 3 || month == 5 || month == 7 || 
             month == 8 || month == 10 || month == 12) {

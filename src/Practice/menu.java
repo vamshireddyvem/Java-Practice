@@ -9,15 +9,14 @@ public class menu {
         System.out.println("SUB");
         System.out.println("MUL");
         System.out.println("DIV");
-        Scanner sc= new Scanner(System.in);
-        System.out.println("Enter your two NO ");
-        no1=sc.nextInt();
-        no2=sc.nextInt();
-        System.out.println("Select the Arthematic Operation as In words");
-        str=sc.nextLine();
-        str=sc.nextLine();
-
-
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter your two NO ");
+            no1=sc.nextInt();
+            no2=sc.nextInt();
+            System.out.println("Select the Arthematic Operation as In words");
+            str=sc.nextLine();
+            str=sc.nextLine();
+        }
         switch (str) {
             case "ADD": System.out.println("Addition of "+no1+" and "+no2+" is "+(no1+no2));
                 break;

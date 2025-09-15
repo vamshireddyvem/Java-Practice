@@ -4,9 +4,10 @@ public class reverseNo {
     public static void main(String[] args) {
         int n,r;
         int rev=0;
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter The Number");
-        n=sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter The Number");
+            n=sc.nextInt();
+        }
         int m=n;
         while(n>0){
             r=n%10;

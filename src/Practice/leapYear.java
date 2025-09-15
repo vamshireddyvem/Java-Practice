@@ -3,9 +3,10 @@ public class leapYear{
     public static void main(String args[]){
         int year;
         int days= 365;
-        Scanner Sc= new Scanner(System.in);
-        System.out.println("Enter Year");
-        year=Sc.nextInt();
+        try (Scanner Sc = new Scanner(System.in)) {
+            System.out.println("Enter Year");
+            year=Sc.nextInt();
+        }
         if (String.valueOf(year).matches("[0-9]{4}")){
         if (year%4==0){
             System.out.println("This is a Leap Year");
