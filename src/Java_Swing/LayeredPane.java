@@ -74,9 +74,6 @@ class Inner_LayeredPane extends JFrame implements ActionListener{
         add(p,BorderLayout.NORTH);
         add(lp2,BorderLayout.CENTER);
 
-        
-
-
     }
 
     @Override
