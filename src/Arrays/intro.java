@@ -15,7 +15,7 @@ public class intro {
             System.out.print(i);
         }
         System.out.println("");
-        for (int i:a){
+        for (int i:c){
             System.out.print(++i);
         }
 
